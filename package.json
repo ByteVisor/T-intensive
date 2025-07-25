@@ -3,10 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ByteVisor.github.io/T-intensive",
   "scripts": {
     "start": "vite",
     "lint": "eslint js",
+    "build": "vite build",
     "prettier": "prettier --write ./",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "jshint": "jshint js/"
   },
   "devDependencies": {
@@ -17,6 +21,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
+    "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
     "prettier": "^3.3.3",
     "vite": "^5.2.0"

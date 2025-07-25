@@ -16,3 +16,9 @@ yarn start</code>
 </p>
 <hr>
 </details>
+
+<details>
+    <summary>Демо проекта</summary>
+    <p>Рабочий пример приложения доступен по <a href="https://bytevisor.github.io/T-intensive/">ссылке</a> (GitHub Pages)</p>
+<hr>
+</details>
