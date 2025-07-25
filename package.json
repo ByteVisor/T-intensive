@@ -1,0 +1,27 @@
+{
+  "name": "t-intensive",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "lint": "eslint js",
+    "prettier": "prettier --write ./",
+    "jshint": "jshint js/"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "html2pdf.js": "^0.10.3"
+  }
+}
