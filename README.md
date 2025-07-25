@@ -3,14 +3,15 @@
 
 <details>
     <summary>ТЗ</summary>
-    <p>ссылка на тз: <a>https://github.com/jegius/front-end-entrance-exam</a></p> 
+    <a href="https://github.com/jegius/front-end-entrance-exam">ссылка на тз</a>
 <hr>
 </details>
 
 <details>
     <summary>Запуск проекта</summary>
     <p>Для Запуска проекта понадобится yarn, после установки, запустить проект можно с помошью командной строки
-<code>yarn
+<code>
+yarn
 yarn start</code>
 </p>
 <hr>
